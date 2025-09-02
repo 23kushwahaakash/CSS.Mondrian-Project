@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container
+    {
+      display: grid;
+      width: 748px;
+      height: 748px;
+      grid-template-columns:repeat(748,1px);
+      grid-template-rows: repeat(748,1px);
+    }
+    .a
+    {
+      grid-area: 1/1/414/320;
+      background-color: red;
+      border-right: 9px solid black;
+      border-bottom: 9px solid black;
+      box-sizing: border-box;
+    }
+    .b
+    {
+      grid-area:1/321/414/748;
+      background-color: bisque;
+      border-bottom: 9px solid black;
+      box-sizing: border-box;
+    }
+    .c
+    {
+      grid-area:415/1/728/320;
+      background-color: bisque;
+      border-bottom: 9px solid black;
+      border-right: 9px solid black;
+      box-sizing: border-box;
+    }
+    .d
+    {
+      grid-area: 415/321/728/698;
+      background-color: bisque;
+      border-right: 9px solid black;
+      border-bottom: 9px solid black;
+      box-sizing: border-box;
+    }
+    .e
+    {
+      grid-area: 415/699/544/748;
+      background-color: blue;
+      border-bottom: 10px solid black;
+      box-sizing: border-box;
+    }
+    .f
+    {
+      grid-area: 545/699/748/748;
+      background-color: bisque;
+    }
+    .g
+    {
+      grid-area: 729/1/748/320;
+      background-color: bisque;
+      border-right: 9px solid black;
+      box-sizing: border-box;
+    }
+    .h
+    {
+      grid-area: 729/321/748/519;
+      background-color: yellow;
+    }
+    .i
+    {
+      grid-area: 729/520/748/673;
+      background-color: black;
+    }
+    
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="f"></div>
+    <div class="g"></div>
+    <div class="h"></div>
+    <div class="i"></div>
+  </div>
+     
+</body>
+
+</html>
